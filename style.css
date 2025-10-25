@@ -133,6 +133,24 @@ main#profileCardContainer {
   margin-bottom: var(--space-s);
 }
 
+/* ------------------------------- */
+/* Migrated utility classes (from inline styles in index.html) */
+/* These keep the visual output identical while removing inline attributes. */
+.title-strong {
+  font-weight: 700;
+  font-size: 40px;
+  background-color: transparent;
+  border: none;
+}
+
+.subtitle-strong {
+  font-weight: 500;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+}
+
+
 .subtitle {
   font-size: 1.2rem;
   color: var(--ui-text-tertiary);
@@ -145,6 +163,14 @@ main#profileCardContainer {
   color: var(--ui-text-tertiary);
   margin-top: 4rem;
   padding-bottom: 2rem;
+}
+
+/* Footer helper class migrated from inline style */
+.footer-text {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  color: var(--ui-text-tertiary);
 }
 
 /* 3. 工具栏 (Toolbar) 样式 */
@@ -338,6 +364,17 @@ h2.section-title {
   border-bottom: 1px solid var(--ui-border-default);
 }
 
+/* Used for exported headings that had inline styles removing borders and
+   specifying exact font size/weight. Applied only to those elements. */
+.section-title-inline {
+  font-weight: 600;
+  font-size: 22px;
+  background-color: transparent;
+  border: none;
+  padding-bottom: var(--space-m);
+  border-bottom: none;
+}
+
 .card-content-wrapper {
   margin-top: var(--space-s);
 }
@@ -347,6 +384,14 @@ h2.section-title {
   line-height: 1.7;
   font-size: 0.9375rem;
   margin-bottom: var(--space-s);
+}
+
+/* Helper to mirror inline-exported content text rules */
+.content-text-inline {
+  font-weight: 400;
+  font-size: 15px;
+  background-color: transparent;
+  border: none;
 }
 
 .content-text:last-child {
