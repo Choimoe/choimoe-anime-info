@@ -62,6 +62,18 @@
   }
 
   /**
+   * Sets an attribute on a DOM element.
+   * @param {Element|null} el - The DOM element.
+   * @param {string} attr - The attribute to set (e.g., 'href', 'src', 'alt').
+   * @param {string|null} value - The value to set.
+   */
+  function setAttr(el, attr, value) {
+    if (el && value != null) {
+      el.setAttribute(attr, value);
+    }
+  }
+
+  /**
    * Fills a container with a list of items as tags.
    * @param {Element|null} container - The container element.
    * @param {string[]|null} items - An array of strings.
@@ -153,6 +165,11 @@
     if (titleTemplate) {
       document.title = titleTemplate.replace("{nickname}", nickname || "");
     }
+    setAttr(
+      document.querySelector('[data-key-href="meta.favicon"]'),
+      "href",
+      getValue(config, "meta.favicon")
+    );
 
     // --- Header ---
     setText(
@@ -169,10 +186,12 @@
       document.querySelector('[data-key="profile.title"]'),
       getValue(config, "profile.title")
     );
-    const avatarImg = document.querySelector('[data-key="profile.avatarAlt"]');
-    if (avatarImg) {
-      avatarImg.alt = getValue(config, "profile.avatarAlt") || "";
-    }
+    const avatarImg = document.querySelector(
+      '[data-key-src="profile.avatarSrc"]'
+    );
+    setAttr(avatarImg, "src", getValue(config, "profile.avatarSrc"));
+    setAttr(avatarImg, "alt", getValue(config, "profile.avatarAlt") || "");
+
     setText(
       document.querySelector('[data-key="profile.labels.nickname"]'),
       getValue(config, "profile.labels.nickname")
@@ -219,6 +238,10 @@
       "div",
       true
     );
+
+    const qrImg = document.querySelector('[data-key-src="profile.qrCodeSrc"]');
+    setAttr(qrImg, "src", getValue(config, "profile.qrCodeSrc"));
+    setAttr(qrImg, "alt", getValue(config, "profile.qrCodeAlt") || "");
 
     // --- About Card ---
     setText(

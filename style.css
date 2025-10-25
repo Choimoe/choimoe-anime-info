@@ -760,6 +760,13 @@ h2.section-title {
   margin-top: var(--space-m);
 }
 
+.qr-code {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 180px;
+}
+
 .avatar-container {
   border-radius: var(--radius-full);
   overflow: hidden;

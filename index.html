@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- The title will be set dynamically by load-content.js -->
     <title></title>
+    <link rel="icon" data-key-href="meta.favicon" href="" />
     <link
       href="https://fonts.loli.net/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
@@ -39,7 +40,11 @@
           <div class="card-content-wrapper">
             <div class="element-container profile-section-layout">
               <div class="avatar-container">
-                <img data-key="profile.avatarAlt" alt="" /><input
+                <img
+                  data-key-src="profile.avatarSrc"
+                  data-key-alt="profile.avatarAlt"
+                  alt=""
+                /><input
                   type="file"
                   id="avatarUploadInput"
                   accept="image/*"
@@ -80,21 +85,13 @@
                 <!-- QR Code remains structural -->
                 <div
                   class="qr-code-container"
-                  style="border-color: rgb(204, 170, 136)"
+                  style="border: 2px solid rgb(204, 170, 136); padding: 10px;"
                 >
-                  <svg
-                    height="128"
-                    width="128"
-                    viewBox="0 0 37 37"
+                  <img
+                    data-key-src="profile.qrCodeSrc"
+                    data-key-alt="profile.qrCodeAlt"
                     class="qr-code"
-                  >
-                    <path
-                      fill="#fcfaf9"
-                      d="M0,0 h37v37H0z"
-                      shape-rendering="crispEdges"
-                    ></path>
-                    <path fill="#7a6651" shape-rendering="crispEdges"></path>
-                  </svg>
+                  />
                 </div>
               </div>
               <div class="element-container">
