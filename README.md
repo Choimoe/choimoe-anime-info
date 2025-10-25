@@ -1,6 +1,6 @@
 # 个人扩列条
 
-这是一个静态的、由 JSON 配置文件 + JavaScript 驱动的个人信息展示页面，您可以在 [摸鱼的qiqi 的 扩列条](http://blog.choimoe.com/info) 查看示例。
+这是一个静态的、由 JSON 配置文件 + JavaScript 驱动的个人信息展示页面，您可以在 [摸鱼的qiqi 的 扩列条](http://info.choimoe.com/) 查看示例。
 
 ## 简介
 
