@@ -1,23 +1,123 @@
 {
+  "meta": {
+    "lang": "zh-CN",
+    "titleTemplate": "{nickname} 的 扩列条"
+  },
+  "header": {
+    "title": "摸鱼的qiqi",
+    "subtitle": "CN: qiqi"
+  },
   "profile": {
+    "title": "基本信息",
+    "avatarAlt": "用户头像",
+    "labels": {
+      "nickname": "昵称: ",
+      "gender": "性别: ",
+      "age": "年龄: ",
+      "location": "常驻: "
+    },
     "nickname": "摸鱼的qiqi",
     "gender": "生理心理男",
     "age": "05年的小朋友",
     "location": "青岛（明年刷新在北京",
-    "catchphrase": "你喜欢我=我喜欢你"
+    "catchphrase": "你喜欢我=我喜欢你",
+    "contact": {
+      "title": "一些其他的联系方式：",
+      "lines": [
+        "mail: <b>qwqshq@gmail.com</b>",
+        "github: <b>@Choimoe</b><br>QQ：<b>1306717258</b>"
+      ]
+    }
   },
-  "likes": ["术力口", "各种形式的创作", "车万", "写点奇妙小工具", "摸鱼", "吃点好的"],
-  "playing": ["明日方舟", "Project Sekai", "街机音游（击中萌）", "国标/立直麻将", "osu!", "MineCraft", "星露谷物语", "酒馆战棋", "肉鸽游戏", "扫雷联萌", "旮旯"],
-  "interests": {
-    "learning": ["画画", "乐理", "做饭", "建模", "写谱", "存储（"],
-    "want": ["编曲", "唱歌", "数学", "宅舞", "建设oc"]
+  "about": {
+    "title": "关于我",
+    "intro": [
+      "你可以叫我qiqi，我的其他名字可能还有choimoe；是个社恐，社交能量恢复比较慢orz",
+      "没回消息可能是qq吞掉了<strike>或者是似了</strike>，基本看到都会秒回（？）",
+      "主要在二次号上发空间，内容大概是音游成绩图+乱七八糟发电<strike>（虽然0人在意）</strike>",
+      "（看过少量的番和玩过少量的galgame，可能是假的二次元<br>",
+      "<div>最近打算补点前几年立过的flag，随缘填点大坑（新坑没有动力开了，痛苦喵</div>"
+    ],
+    "note": "以下排名不分先后，梦到什么写什么（随缘更新",
+    "sections": {
+      "likes": {
+        "title": "喜欢：",
+        "items": [
+          "术力口",
+          "各种形式的创作",
+          "车万",
+          "写点奇妙小工具",
+          "摸鱼",
+          "吃点好的"
+        ]
+      },
+      "playing": {
+        "title": "最近在玩：",
+        "items": [
+          "明日方舟",
+          "Project Sekai",
+          "街机音游（击中萌）",
+          "国标/立直麻将",
+          "osu!",
+          "MineCraft",
+          "星露谷物语",
+          "酒馆战棋",
+          "肉鸽游戏",
+          "扫雷联萌",
+          "旮旯"
+        ]
+      },
+      "interests": {
+        "title": "感兴趣的事情：",
+        "learning": {
+          "label": "正在学习...",
+          "items": ["画画", "乐理", "做饭", "建模", "写谱", "存储（"]
+        },
+        "want": {
+          "label": "想要学习！",
+          "items": ["编曲", "唱歌", "数学", "宅舞", "建设oc"]
+        }
+      }
+    }
+  },
+  "musicGames": {
+    "title": "关于音游",
+    "content": [
+      "音游苦手，又菜又爱玩，感觉全是汗水的成绩：<br><b><u>osu!</u></b>：四模式pp戳泡泡3583+太鼓464+接水果417+下落式2017",
+      "<div><b><u>音击</u></b>：bright memory版本虹框，分表可以在我的b站账号看到~</div>",
+      "<div><b><u>中二</u></b>：verse版本15.95，目前还在绝赞吃水分中~，很喜欢谱面-100号的谱！</div>",
+      "<div><b><u>舞萌</u></b>：DX2025版本ra 14733，目前在推一些有趣的谱面（车万小歌/初代小歌）！</div>",
+      "<div><b><u>下落式</u></b>：目前通关4k malody 3dan、6k start dan，还在努力修行中orz</div>",
+      "<div><b><u>啤酒烧烤</u></b>：若干月前达成红谱全FC、紫谱28以下全FC，最近有点懒（<strike>忙着打舞萌</strike></div>",
+      "<div><b>欢迎来和我拼机！</b>（虽然和大家比我的水平简直是草履虫级别</div>"
+    ]
+  },
+  "achievements": {
+    "title": "其他乱七八糟的成就",
+    "content": [
+      "<b>立直麻将</b>：",
+      "<div>四麻最高天凤五段1870pt<div>",
+      "<div>三麻达成四倍役满（汪汪录100期片尾）</div>",
+      "</div></div>",
+      "<div><b>杀戮尖塔</b>：故障机器人a20通关</div>",
+      "<div><b>明日方舟</b>：几个合约抄作业最高分（</div>",
+      "<div>好像没什么拿的出手的了</div>",
+      "<div>（<strike>补个算法竞赛拿过若干铜牌/N等奖</strike></div>"
+    ]
   },
   "oshis": {
-    "anime": ["东云绘名", "晓山瑞希", "斯卡蒂", "东云纺", "珂朵莉", "惠惠"],
-    "moreText": "and more..."
+    "title": "我的推し",
+    "anime": {
+      "subtitle": "💖 二次元",
+      "items": ["东云绘名", "晓山瑞希", "斯卡蒂", "东云纺", "珂朵莉", "惠惠"],
+      "moreText": "and more..."
+    },
+    "cpNote": "<b>关于cp: 杂食</b>，什么都磕营养均衡（；可能主推糖画（其实是画all）"
   },
   "footer": {
     "copyright": "© 2025 摸鱼的qiqi",
+    "note1": "powered by 芝士扩列条",
+    "note2": "© 2025 小芝士.",
     "poweredBy": "ProfileCraft",
     "poweredLink": "https://chizukuo.github.io/ProfileCraft/"
   }
