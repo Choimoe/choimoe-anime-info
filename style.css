@@ -394,6 +394,52 @@ h2.section-title {
   border: none;
 }
 
+/* Generic span/text utilities extracted from repeated inline styles in HTML */
+.span-regular {
+  font-weight: 400;
+  font-size: 15px;
+  background-color: transparent;
+  border: none;
+}
+
+.tag-text {
+  font-weight: 500;
+  font-size: 13px;
+  background-color: transparent;
+  border: none;
+}
+
+/* specific small variations used in oshi tags */
+.oshi-span {
+  font-weight: 400;
+  font-size: 14.4px;
+  background-color: transparent;
+  border: none;
+}
+
+.oshi-meta-span {
+  font-weight: 400;
+  font-size: 14px;
+  background-color: transparent;
+  border: none;
+}
+
+/* h3 exported inline helper */
+.subheading-inline {
+  font-weight: 600;
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+}
+
+/* stronger music/game label helper */
+.music-label-strong {
+  font-weight: 700;
+  font-size: 15px;
+  background-color: transparent;
+  border: none;
+}
+
 .content-text:last-child {
   margin-bottom: 0;
 }
